@@ -16,15 +16,28 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #app {
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     min-height: 100%;
     min-width: 100%;
   }
 
   p,
   label {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
     line-height: 1.5em;
+  }
+
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  .content{
+    padding: 90px 50px;
+    height: 100vh;
+  
   }
 `;
 
